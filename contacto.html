@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Neutro Tecnologías</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <div class="dev-banner">
+         Sitio en Desarrollo - Estamos trabajando para mejorar tu experiencia
+    </div>
+    
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <div class="logo-icon">
+                     <img src="img/Logo.svg" alt="">
+                </div>
+                
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#inteligencia">Inteligencia</a></li>
+                <li><a href="index.html#robustez">Robustez</a></li>
+                <li><a href="index.html#rendimiento">Rendimiento</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+            </ul>
+            <button class="cta-nav" onclick="window.location.href='index.html'">
+                <span>Volver al Inicio</span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Comienza tu Transformación 4.0</h1>
+                <p>Completa el formulario y un especialista se contactará contigo en menos de 24 horas</p>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="empresa">Empresa *</label>
+                            <input type="text" id="empresa" name="empresa" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Corporativo *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interes">Área de Interés *</label>
+                            <select id="interes" name="interes" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="scada">SCADA/Control</option>
+                                <option value="tableros">Tableros Eléctricos</option>
+                                <option value="upgrades">Upgrade de Equipos</option>
+                                <option value="consultoria">Consultoría 4.0</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Describe tu Proyecto o Necesidad *</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Ej: Necesito modernizar mi línea de envasado, actualizar sistema SCADA, etc."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <span>Enviar Solicitud </span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.686 15.314a.5.5 0 0 0 .65.65L15.964.686z"/>
+                                <path d="M.686 15.314a.5.5 0 0 0 .65.65L15.314.686a.5.5 0 0 0-.65-.65L.686 15.314z"/>
+                            </svg>
+                        </button>
+                    </form>
+                    
+                    <div class="contact-info">
+                        <h3>Otras formas de contactarnos</h3>
+                        <div class="contact-method">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>brayan@ntecnologias.com</p>
+                            </div>
+                        </div>
+                        <!-- <div class="contact-method">
+                            <div class="contact-icon"> </div>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <p>+52 81 1234 5678</p>
+                            </div>
+                        </div> -->
+                        <div class="contact-method">
+                            <div class="contact-icon"> </div>
+                            <div>
+                                <strong>Oficina</strong>
+                                <p>Lima, Perú</p>
+                            </div>
+                        </div>
+                        <div class="contact-note">
+                            <p><strong>¿Por qué elegirnos?</strong></p>
+                            <ul>
+                                <li>Respuesta en menos de 24 horas</li>
+                                <li>Diagnóstico inicial sin costo</li>
+                                <li>Propuesta técnica detallada</li>
+                                <li>Equipo especializado 4.0</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                         <img src="img/Logo.svg" alt="">
+                    </div>
+                    
+                </div>
+                <p>Transformando servicios técnicos en pilares de transformación 4.0</p>
+                
+                <div class="dev-notice">
+                    <p> <strong>Sitio en Desarrollo Activo</strong> - ¿Encontraste algún error? <a href="brayan@ntecnologias.com">Repórtalo aquí</a></p>
+                </div>
+                
+                <p class="footer-copy">&copy; 2025 Neutro Tecnologías. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
